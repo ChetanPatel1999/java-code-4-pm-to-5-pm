@@ -9,14 +9,14 @@ public class practice {
         System.out.println("hi i am display method");
     }
 
-   public static void main(String[] args) {
+    public static void main(String args[]) {
         System.out.println("hello i am main method");
         practice obj = new practice();
         obj.show();
         System.out.println("inside main method");
         display(); //call without object static method
-
     }
-   
+
+    
 
 }
