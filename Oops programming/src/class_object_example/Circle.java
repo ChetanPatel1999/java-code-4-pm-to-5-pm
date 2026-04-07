@@ -1,16 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package class_object_example;
 
-/**
- *
- * @author PC
- */
+package class_object_example;
 public class Circle {
 
-    double radius, area, circumference;
+    private double radius, area, circumference;
 
     public void setRadius(double r) {
         radius = r;
@@ -23,6 +15,7 @@ public class Circle {
     
     public void getCircle()
     {
+        
         System.out.println("Circle info : ");
         System.out.println("radius : "+radius);
         System.out.println("area : "+area);

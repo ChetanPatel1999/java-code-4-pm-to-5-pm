@@ -5,7 +5,7 @@
 package class_object_example;
 
 public class MathUser {
-
+    
     public static void main(String[] args) {
         double res = Math.pow(5, 2);
         double ans = Math.sqrt(36);

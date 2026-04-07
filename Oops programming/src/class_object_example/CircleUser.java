@@ -14,7 +14,6 @@ public class CircleUser {
         Circle c1 = new Circle();
         c1.setRadius(4);
         c1.computeOperation();
-        c1.area=9;
         c1.getCircle();
     }
 
