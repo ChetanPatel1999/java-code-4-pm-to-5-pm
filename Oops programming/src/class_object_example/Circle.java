@@ -4,7 +4,7 @@ public class Circle {
 
     private double radius, area, circumference;
 
-    public void setRadius(double r) {
+    public Circle(double r) {
         radius = r;
     }
 

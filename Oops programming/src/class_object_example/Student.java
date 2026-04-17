@@ -51,4 +51,32 @@ public class Student {
         System.out.println("this is student class");
         System.out.println("here are many methods");
     }
+
+//    void average(Student obj) {
+//        double ave;
+//        ave = (per + obj.per) / 2.0;
+//        System.out.println("average : " + ave);
+//    }
+//
+//    static void average(Student obj1, Student obj2) {
+//        double ave;
+//        ave = (obj1.per + obj2.per) / 2.0;
+//        System.out.println("average : " + ave);
+//    }
+//
+//    static void average(Student obj1, Student obj2, Student obj3) {
+//        double ave;
+//        ave = (obj1.per + obj2.per + obj3.per) / 3.0;
+//        System.out.println("average : " + ave);
+//    }
+    
+    static void  average(Student... obj)
+    {
+         double sum=0;
+         for(Student s:obj)
+         {
+             sum=sum+s.per;
+         }
+         System.out.println("average = "+(sum/obj.length));
+    }
 }

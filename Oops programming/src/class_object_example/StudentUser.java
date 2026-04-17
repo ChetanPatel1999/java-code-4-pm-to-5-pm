@@ -25,6 +25,12 @@ public class StudentUser {
         Student.getTotalResult();
         
         Student.classInfo();
+        
+//        s1.average(s2);
+        Student.average(s1,s2);
+        Student.average(s3,s4);
+        Student.average(s1,s2,s3);
+        Student.average(s1,s2,s3,s4);
     }
 
 }

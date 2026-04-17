@@ -19,7 +19,7 @@ public class Mouse {
         return true;
     }
 
-    public void setMouse(String c, int p, double r) //setter data 
+    public Mouse(String c, int p, double r) //setter data 
     {
         if (checkColor(c)) {
             color = c;

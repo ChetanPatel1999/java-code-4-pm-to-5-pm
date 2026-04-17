@@ -4,16 +4,19 @@
  */
 package class_object_example;
 
-/**
- *
- * @author PC
- */
-public class CircleUser {
+public class Car {
 
-    public static void main(String[] args) {
-        Circle c1 = new Circle(4);
-        c1.computeOperation();
-        c1.getCircle();
+    String modle;
+    int price;
+    String color;
+
+    public Car(String modle, int price, String color) {
+        this.modle = modle;
+        this.price = price;
+        this.color = color;
     }
 
+    
+    
+    
 }
