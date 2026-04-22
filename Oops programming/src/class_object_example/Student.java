@@ -10,10 +10,10 @@ public class Student {
     private static int totalFail;
     private static String instituteName = "HW Institute";
 
-    void setStudent(String n, int r, double p) {
-        name = n;
-        rno = r;
-        per = p;
+    void setStudent(String name, int rno, double per) {
+        this.name = name;
+        this.rno = rno;
+        this.per = per;
         totalStd++;
         if (per > 33) {
             totalPass++;
@@ -69,14 +69,20 @@ public class Student {
 //        ave = (obj1.per + obj2.per + obj3.per) / 3.0;
 //        System.out.println("average : " + ave);
 //    }
-    
-    static void  average(Student... obj)
-    {
-         double sum=0;
-         for(Student s:obj)
-         {
-             sum=sum+s.per;
-         }
-         System.out.println("average = "+(sum/obj.length));
+    static void average(Student... obj) {
+        double sum = 0;
+        for (Student s : obj) {
+            sum = sum + s.per;
+        }
+        System.out.println("average = " + (sum / obj.length));
+    }
+
+    public boolean equals(Student obj) {
+        if (name == obj.name && rno == obj.rno && per == obj.per) {
+            return true;
+        } else {
+            return false;
+        }
+
     }
 }

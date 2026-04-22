@@ -7,11 +7,16 @@ public class StudentUser {
         Student s2 = new Student();
         Student s3 = new Student();
         Student s4 = new Student();
+        Student s5 = new Student();
 
         s1.setStudent("ram", 101, 23);
         s2.setStudent("shyam", 102, 98);
         s3.setStudent("madhav", 103, 56);
         s4.setStudent("rupesh", 104, 75);
+        s5.setStudent("rupesh", 104, 85);
+        
+        
+        System.out.println(s4.equals(s5));
         
         s1.getResultCard();
         s2.getResultCard();

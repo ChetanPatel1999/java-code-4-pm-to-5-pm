@@ -19,15 +19,15 @@ public class Mouse {
         return true;
     }
 
-    public Mouse(String c, int p, double r) //setter data 
+    public Mouse(String color, int price, double rating) //setter data 
     {
-        if (checkColor(c)) {
-            color = c;
+        if (checkColor(color)) {
+            this.color = color;
         } else {
             color = "invalid data";
         }
-        price = p;
-        rating = r;
+        this.price = price;
+        this.rating = rating;
     }
 
     public void getMouse() // getter method

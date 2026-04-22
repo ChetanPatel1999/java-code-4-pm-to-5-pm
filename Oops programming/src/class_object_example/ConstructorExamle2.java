@@ -51,7 +51,7 @@ class Dog {
     Dog(String n, int a, String c) {
         this("hello", 12);
         color = c;
-         f1();
+//         f1();
     }
 
     Dog(String n, int a) {
