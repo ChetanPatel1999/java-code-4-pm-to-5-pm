@@ -1,6 +1,6 @@
 package inheritaceexample;
 
-public class Student {
+ public class Student {
 
     private String name;
     private int rno;
@@ -17,6 +17,14 @@ public class Student {
         System.out.println("Student name : " + name);
         System.out.println("Student rno : " + rno);
         System.out.println("Student fees : " + fees);
+    }
+
+    void result(int per) {
+        if (per > 33) {
+            System.out.println("student pass");
+        } else {
+            System.out.println("student fail");
+        }
     }
 
 }
