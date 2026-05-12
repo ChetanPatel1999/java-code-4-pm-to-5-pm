@@ -10,7 +10,7 @@ public class UniversityUser {
         s1.setEng(4, "CSE");
         s1.getStudent();
         s1.getEngStudent();
-        s1.result(37);
+        s1.result(25);
 
         MediStd s2 = new MediStd();
         s2.setStudent("raj varma", 102, 450000);
@@ -18,6 +18,15 @@ public class UniversityUser {
         s2.getStudent();
         s2.getMediStudent();
         s2.result(39);
+        
+        Student obj;
+        obj= new EngStd();
+        obj= new MediStd();
+        
+        Object o1;
+        o1=new EngStd();
+        o1=new MediStd();
+        o1=new Student1("ram",101,56000);
        
     }
 }

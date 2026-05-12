@@ -15,14 +15,11 @@ public class MediStd extends Student {
         System.out.println("Student prof : " + prof);
         System.out.println("Student speci : " + speci);
     }
-     void result(int per)
-    {
-        if(per>40)
-        {
+
+    void result(int per) {
+        if (per> 40) {
             System.out.println("student pass");
-        }
-        else
-        {
+        } else {
             System.out.println("student fail");
         }
     }

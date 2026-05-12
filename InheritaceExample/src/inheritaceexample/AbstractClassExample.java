@@ -32,7 +32,8 @@ class Y extends X {
 public class AbstractClassExample {
 
     public static void main(String[] args) {
-        Y obj = new Y();
+
+        X obj = new Y();
         obj.m1();
         obj.m2();
         obj.m3();

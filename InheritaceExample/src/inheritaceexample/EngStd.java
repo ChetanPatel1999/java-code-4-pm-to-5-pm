@@ -15,4 +15,12 @@ public class EngStd extends Student {
         System.out.println("Student sem : " + sem);
         System.out.println("Student branch : " + branch);
     }
+
+    void result(int per) {
+        if (per > 23) {
+            System.out.println("student pass");
+        } else {
+            System.out.println("student fail");
+        }
+    }
 }

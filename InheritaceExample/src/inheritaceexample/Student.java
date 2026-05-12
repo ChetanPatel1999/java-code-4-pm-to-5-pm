@@ -1,6 +1,6 @@
 package inheritaceexample;
 
- public class Student {
+public abstract class Student {
 
     private String name;
     private int rno;
@@ -19,12 +19,6 @@ package inheritaceexample;
         System.out.println("Student fees : " + fees);
     }
 
-    void result(int per) {
-        if (per > 33) {
-            System.out.println("student pass");
-        } else {
-            System.out.println("student fail");
-        }
-    }
+    abstract void result(int per);
 
 }
